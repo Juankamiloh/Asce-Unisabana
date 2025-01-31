@@ -72,18 +72,17 @@ nav a:hover {
 
 /* Main Section Styles */
 .presentacion {
-    margin: 5% 10%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    gap: 82px;
+    justify-content: center;
+    gap: 20px;
+    padding: 5% 10%;
 }
 
 .presentacion_contenido {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+    flex: 1 1 40%;
+    max-width: 600px;
 }
 
 .presentacion_contenido_titulo {
@@ -101,6 +100,18 @@ nav a:hover {
 .presentacion_contenido_texto {
     font-size: 1.25rem;
     font-family: var(--fuente-principal);
+}
+
+.about-image-section {
+    flex: 1 1 40%;
+    max-width: 600px;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .presentacion_enlaces {
@@ -397,3 +408,4 @@ footer {
         font-size: 1rem;
     }
 }
+
